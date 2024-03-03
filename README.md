@@ -18,7 +18,23 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+#Swapping of two values
 
+#Developed by: EASWAR R
+
+#Register number: 212223230053
+
+surya_data=int(input())
+
+vijay_data=int(input())
+
+temp=surya_data
+
+surya_data=vijay_data
+
+vijay_data=temp
+
+print("Swapped values are: {0} {1}".format(surya_data,vijay_data))
 
 
 ## RESULT:
